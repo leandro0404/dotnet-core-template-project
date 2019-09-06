@@ -1,0 +1,38 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "Leandro Silveira Alves Moreira",
+  "classifications": [
+    "WebApi","Stack"
+  ],
+  "name": "stack projeto Api",
+  "identity": "Template",
+  "groupIdentity": "Nome da Empresa",
+  "shortName": "graphql-project",
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  },
+  "sourceName": "Template",
+  "preferNameDirectory": true,
+  "symbols":{
+    "nameLower":{
+      "type": "generated",
+      "generator": "casing",
+      "parameters": {
+        "source":"name",
+        "toLower": true
+      },
+      "replaces":"LowerCase.Template"
+    },
+    "team": {
+      "type": "parameter",
+      "defaultValue": "",
+      "replaces":"Template.TeamName"
+    },
+    "appgroup": {
+      "type": "parameter",
+      "defaultValue": "",
+      "replaces":"Template.ApplicationGroup"
+    }
+  }
+}

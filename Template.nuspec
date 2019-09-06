@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package 
+  xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Template</id>
+    <version>1.0.0</version>
+    <owners>Leandro Silveira</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+       <projectUrl>https://github.com/leandro0404/dotnet-core-template-project</projectUrl>
+    <description>
+     Template for .NET Web API with  stack
+    </description>
+    <authors>Leandro Silveira</authors>
+    <packageTypes>
+      <packageType name="Template" />
+    </packageTypes>
+    <tags>.NET Core, WebAPI, Bootstrap, Kubernetes, Estafette</tags>
+  </metadata>
+</package>
