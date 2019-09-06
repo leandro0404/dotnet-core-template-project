@@ -24,6 +24,10 @@ restauração dotnet
 dotnet run
 `` ``
 
+![alt text](https://github.com/leandro0404/dotnet-core-template-project/blob/master/imgs/01.png)
+
+![alt text](https://github.com/leandro0404/dotnet-core-template-project/blob/master/imgs/02.png)
+
 # Informações gerais sobre a instalação de modelo
 
 O modelo podem ser instalados a partir de pacotes em qualquer feed do NuGet, diretórios no sistema de arquivos ou nos arquivos do tipo ZIP (zip, nupkg, vsix etc.)
@@ -48,3 +52,9 @@ Para instalar um novo modelo, use o comando:
 
     dotnet new MeuTemplate --name MeuProjeto --put src --ParameterName1 Value1 --ParameterName2 Value2 ... --ParameterNameN ValueN ...
     
+# Diretório com arquivos criados
+
+![alt text](https://github.com/leandro0404/dotnet-core-template-project/blob/master/imgs/03.png)
+    
+# Solução Criada com o template
+![alt text](https://github.com/leandro0404/dotnet-core-template-project/blob/master/imgs/04.png)
